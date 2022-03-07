@@ -1,0 +1,23 @@
+package com.ekart.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ekart.dao.ItemRepository;
+import com.ekart.model.Item;
+
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Autowired	
+	ItemRepository itemRepo;
+	
+	
+	@Override
+	public Item addItem(Item item) {	
+		itemRepo.save(item);	 		
+		return item;
+	}
+
+
+
+}

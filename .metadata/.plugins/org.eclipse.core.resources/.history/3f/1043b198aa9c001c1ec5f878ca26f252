@@ -1,0 +1,7 @@
+package com.ekart.model;
+
+@Entity
+@Table(name="cart")
+public class Cart {
+
+}

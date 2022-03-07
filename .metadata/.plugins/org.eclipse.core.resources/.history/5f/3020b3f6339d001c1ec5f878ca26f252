@@ -1,0 +1,10 @@
+package com.ekart.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.ekart.model.Item;
+
+@Repository
+public interface CartRepository extends JpaRepository<Item, Long>{
+
+}

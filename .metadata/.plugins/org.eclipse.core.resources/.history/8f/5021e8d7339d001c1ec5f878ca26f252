@@ -1,0 +1,5 @@
+package com.ekart.dao;
+
+public interface CartRepository {
+
+}

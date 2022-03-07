@@ -1,0 +1,10 @@
+package com.ekart.service;
+
+public class ItemServiceImpl implements ItemService {
+
+	
+	public Product addUpdateProduct(Product product) {	
+		repo.save(product);	 		
+		return product;
+	}
+}

@@ -1,0 +1,11 @@
+package com.ekart.service;
+
+import com.ekart.model.Item;
+
+public interface ItemService {
+	
+	public Item addItem(Item item) ;
+	
+	public String deleteItem(int itemid) ;
+
+}
